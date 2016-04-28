@@ -1,0 +1,86 @@
+/*main styles*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext);
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+    font-family: 'League Gothic';
+    src: local('League Gothic'), 
+    local('LeagueGothic'), 
+    url('../fonts/leaguegothic.woff2') format('woff2'), 
+    url('../fonts/leaguegothic.woff') format('woff'), 
+    url('../fonts/leaguegothic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*backgrounds*/
+.bg_1{
+	position: absolute;
+	width: 100%;
+	background:url(../img/bg-1.jpg)  top center no-repeat;
+}
+.bg_opacity{
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.2);
+ 	width: 100%;
+}
+.bg_3{	
+	background: rgba(116,80,131,1);
+    background: -webkit-linear-gradient(rgba(116,80,131,1) 0%, rgba(100,70,113,1) 24%, rgba(88,62,100,1) 46%, rgba(91,64,103,1) 78%, rgba(116,80,131,1) 100%);
+    background: -o-linear-gradient(rgba(116,80,131,1) 0%, rgba(100,70,113,1) 24%, rgba(88,62,100,1) 46%, rgba(91,64,103,1) 78%, rgba(116,80,131,1) 100%);
+    background: linear-gradient(rgba(116,80,131,1) 0%, rgba(100,70,113,1) 24%, rgba(88,62,100,1) 46%, rgba(91,64,103,1) 78%, rgba(116,80,131,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#745083', endColorstr='#745083', GradientType=0 );
+    border-top:1px solid #33253a;
+    border-bottom: 1px solid #1d2f37;
+    box-shadow: 
+    -webkit-box-shadow: 0px 8px 21px -13px rgba(71,67,71,1);
+	-moz-box-shadow: 0px 8px 21px -13px rgba(71,67,71,1);
+	box-shadow: 0px 8px 21px -13px rgba(71,67,71,1);
+	position: absolute;
+	width:100%;
+}
+.bg_4{
+	width: 100%;
+	background-color: #f9f9f9;
+	position: absolute;
+}
+.bg_5{
+	width: 100%;
+	background-color: #f9f9f9;
+	position: absolute;
+	border-top:2px solid #e6e6e6;
+	border-bottom:2px solid #e6e6e6;
+}
+.bg_6{
+	position: absolute;
+	background-color:#c7cdcf;
+	opacity: 0.3;
+	width: 100%;
+}
+.bg_7{
+	position: absolute;
+	width: 100%;
+}
+/*site-box*/
+.site-box{
+	max-width: 960px;
+	position: relative;
+	margin: 0 auto;
+}
+.page{
+	margin: 0 auto;
+
+}
+/*header*/
+#logo {
+  display: block;
+  width: 160px;
+  height: 45px;
+  background:url(../img/logo.png) no-repeat;
+}
+
+
+
