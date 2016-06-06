@@ -1,19 +1,20 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext);
+
 *{
 	margin: 0;
 	padding: 0;
 }
 
+/* font-family: "LeagueGothicRegular"; */
 @font-face {
-    font-family: 'League Gothic';
-    src: local('League Gothic'), 
-    local('LeagueGothic'), 
-    url('../fonts/leaguegothic.woff2') format('woff2'), 
-    url('../fonts/leaguegothic.woff') format('woff'), 
-    url('../fonts/leaguegothic.ttf') format('truetype');
-    font-weight: 400;
+    font-family: "League Gothic";
+    src: url("../fonts/LeagueGothicRegular.eot");
+    src: url("../fonts/LeagueGothicRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/LeagueGothicRegular.woff") format("woff"),
+    url("../fonts/LeagueGothicRegular.ttf") format("truetype");
     font-style: normal;
+    font-weight: normal;
 }
+
 @media (min-width: 960px){
 .bg_1{
 	height: 846px;
@@ -41,7 +42,7 @@
 	background-image: url('../img/bg-6.jpg');
 }
 .wrapper{
-	width: min-width: 960px;
+    min-width: 960px;
 }
 .site-box{
  	width: 960px;
@@ -443,7 +444,7 @@ header{
 	top:2145px;
 }
 .wrapper{
-  max-width: 959px;
+    max-width: 959px;
 	min-width: 768px;
 }
 .site-box{
@@ -1234,7 +1235,7 @@ header{
 	width: 320px;
 }
 .bg_1{
-	height: 516px;
+	height: 566px;
 }
 .bg_3{
 	height:600px;

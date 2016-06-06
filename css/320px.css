@@ -8,7 +8,7 @@
 	width: 320px;
 }
 .bg_1{
-	height: 516px;
+	height: 556px;
 }
 .bg_3{
 	height:597px;
@@ -45,8 +45,6 @@
 	overflow: hidden;
   z-index: 10;
   -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s;
   text-align: center;
 }
@@ -55,7 +53,9 @@
 	width: 242px;
 	border: 1px black solid;
 	border-radius: 10px;
-	background-color: rgba(63, 51, 72, 0.9);
+	background-color: #000;
+	opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=50)"; /* данная строчка работает только в IE8 */
 }
 .header-menu__item{
 	list-style: none;
@@ -107,7 +107,6 @@
 	font-family: 'League Gothic';
 	color:#edbfff;
 	letter-spacing:-0.01em;
-	
 	overflow: hidden;
 }
 .article__third-title{

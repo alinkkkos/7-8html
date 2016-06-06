@@ -4,7 +4,7 @@
 }
 .bg_opacity{
 	height: 400px;
-  top: 278px;
+    top: 278px;
 	position: absolute;
 }
 .bg_3{
@@ -29,7 +29,7 @@
 	background-image: url('../img/bg-6.jpg');
 }
 .wrapper{
-	width: min-width: 960px;
+	min-width: 960px;
 }
 .site-box{
  	width: 960px;
@@ -82,7 +82,7 @@ header{
 .article{
 	width: 100%;
 	height:587px;
-	overflow:auto;
+	clear:both;
 }
 .phones{
 	margin-right: 70px;
